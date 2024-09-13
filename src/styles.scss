@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-  font-size: 14px;
-  color: #000;
+body, p {
   font-family: Arial;
   margin: 0;
   padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }

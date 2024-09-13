@@ -4,8 +4,249 @@
   justify-content: center;
   height: 100vh;
   background-color: #FF8C9E;
+  flex-direction: column;
   h1 {
     font-size: 32px;
     color: #fff;
   }
 }
+
+.card {
+  background-color: var(--bg-color);
+  padding: 1rem 2rem;
+  border-radius: 1.25rem;
+}
+.loader {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 40px;
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+}
+
+.words {
+  overflow: hidden;
+  position: relative;
+}
+.words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--bg-color) 10%,
+    transparent 30%,
+    transparent 70%,
+    var(--bg-color) 90%
+  );
+  z-index: 20;
+}
+
+.word {
+  display: block;
+  height: 100%;
+  padding-left: 6px;
+  color: #624E88;
+  animation: spin_4991 4s infinite;
+}
+
+@keyframes spin_4991 {
+  10% {
+    -webkit-transform: translateY(-102%);
+    transform: translateY(-102%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-202%);
+    transform: translateY(-202%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-302%);
+    transform: translateY(-302%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-402%);
+    transform: translateY(-402%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
+
+.🤚 {
+  --skin-color: #E4C560;
+  --tap-speed: 0.6s;
+  --tap-stagger: 0.1s;
+  position: relative;
+  width: 80px;
+  height: 60px;
+  margin-left: 80px;
+}
+
+.🤚:before {
+  content: '';
+  display: block;
+  width: 180%;
+  height: 75%;
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  background-color: black;
+  border-radius: 40px 10px;
+  filter: blur(10px);
+  opacity: 0.3;
+}
+
+.🌴 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--skin-color);
+  border-radius: 10px 40px;
+}
+
+.👍 {
+  position: absolute;
+  width: 120%;
+  height: 38px;
+  background-color: var(--skin-color);
+  bottom: -18%;
+  right: 1%;
+  transform-origin: calc(100% - 20px) 20px;
+  transform: rotate(-20deg);
+  border-radius: 30px 20px 20px 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.👍:after {
+  width: 20%;
+  height: 60%;
+  content: '';
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: -8%;
+  left: 5px;
+  border-radius: 60% 10% 10% 30%;
+  border-right: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.👉 {
+  position: absolute;
+  width: 80%;
+  height: 35px;
+  background-color: var(--skin-color);
+  bottom: 32%;
+  right: 64%;
+  transform-origin: 100% 20px;
+  animation-duration: calc(var(--tap-speed) * 2);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform: rotate(10deg);
+}
+
+.👉:before {
+  content: '';
+  position: absolute;
+  width: 140%;
+  height: 30px;
+  background-color: var(--skin-color);
+  bottom: 8%;
+  right: 65%;
+  transform-origin: calc(100% - 20px) 20px;
+  transform: rotate(-60deg);
+  border-radius: 20px;
+}
+
+.👉:nth-child(1) {
+  animation-delay: 0;
+  filter: brightness(70%);
+  animation-name: tap-upper-1;
+}
+
+.👉:nth-child(2) {
+  animation-delay: var(--tap-stagger);
+  filter: brightness(80%);
+  animation-name: tap-upper-2;
+}
+
+.👉:nth-child(3) {
+  animation-delay: calc(var(--tap-stagger) * 2);
+  filter: brightness(90%);
+  animation-name: tap-upper-3;
+}
+
+.👉:nth-child(4) {
+  animation-delay: calc(var(--tap-stagger) * 3);
+  filter: brightness(100%);
+  animation-name: tap-upper-4;
+}
+
+@keyframes tap-upper-1 {
+  0%, 50%, 100% {
+    transform: rotate(10deg) scale(0.4);
+  }
+
+  40% {
+    transform: rotate(50deg) scale(0.4);
+  }
+}
+
+@keyframes tap-upper-2 {
+  0%, 50%, 100% {
+    transform: rotate(10deg) scale(0.6);
+  }
+
+  40% {
+    transform: rotate(50deg) scale(0.6);
+  }
+}
+
+@keyframes tap-upper-3 {
+  0%, 50%, 100% {
+    transform: rotate(10deg) scale(0.8);
+  }
+
+  40% {
+    transform: rotate(50deg) scale(0.8);
+  }
+}
+
+@keyframes tap-upper-4 {
+  0%, 50%, 100% {
+    transform: rotate(10deg) scale(1);
+  }
+
+  40% {
+    transform: rotate(50deg) scale(1);
+  }
+}
+

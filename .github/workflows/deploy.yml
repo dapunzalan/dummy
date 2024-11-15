@@ -39,14 +39,14 @@ jobs:
         run: npm install
         
       - name: Build
-        run: npm run build --base-href='/kathclaver.github.io/'
+        run: npm run build --base-href='/dummy/'
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './dist/kathclaver.github.io/'
+          path: './dist/dummy/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

@@ -17,8 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/kathclaver.github.io",
-            "baseHref": "/kathclaver.github.io/",
+            "outputPath": "dist/dummy",
+            "baseHref": "/dummy/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [

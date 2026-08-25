@@ -1,457 +1,572 @@
 [
   {
     "id": 1,
-    "question": "What is the normal pH range for arterial blood gas?",
-    "options": ["7.25 - 7.35", "7.35 - 7.45", "7.45 - 7.55", "7.30 - 7.40"],
-    "correctAnswer": 1,
-    "explanation": "The normal arterial blood pH range is 7.35 - 7.45. Below 7.35 is acidosis; above 7.45 is alkalosis."
+    "question": "A nurse is reviewing arterial blood gas (ABG) results for a client: pH 7.30, PaCO2 55 mmHg, HCO3- 24 mEq/L. Which condition does the nurse suspect?",
+    "options": ["Uncompensated respiratory acidosis", "Uncompensated metabolic acidosis", "Compensated respiratory alkalosis", "Compensated metabolic alkalosis"],
+    "correctAnswer": 0,
+    "explanation": "The pH is low (acidosis) and the PaCO2 is high, with a normal HCO3-, indicating an uncompensated respiratory acidosis."
   },
   {
     "id": 2,
-    "question": "What is the normal range for PaCO2?",
-    "options": ["22 - 26 mmHg", "35 - 45 mmHg", "80 - 100 mmHg", "95 - 100 mmHg"],
+    "question": "A client with a history of chronic obstructive pulmonary disease (COPD) is admitted with an exacerbation. ABG results show pH 7.32, PaCO2 58 mmHg, HCO3- 30 mEq/L. Which nursing action is the priority?",
+    "options": [
+      "Encourage the client to breathe faster and deeper",
+      "Position the client to optimize ventilation and administer prescribed bronchodilators",
+      "Prepare to administer sodium bicarbonate immediately",
+      "Restrict the client's oral fluid intake"
+    ],
     "correctAnswer": 1,
-    "explanation": "Normal PaCO2 (partial pressure of carbon dioxide) is 35 - 45 mmHg. This reflects the respiratory component of acid-base balance."
+    "explanation": "In respiratory acidosis from COPD, the priority is improving ventilation and gas exchange (positioning, bronchodilators, airway clearance) rather than administering bicarbonate, which does not treat the underlying ventilatory problem."
   },
   {
     "id": 3,
-    "question": "What is the normal range for HCO3- (bicarbonate)?",
-    "options": ["35 - 45 mEq/L", "8 - 16 mEq/L", "22 - 26 mEq/L", "80 - 100 mEq/L"],
-    "correctAnswer": 2,
-    "explanation": "Normal bicarbonate (HCO3-) is 22 - 26 mEq/L. This reflects the metabolic/renal component of acid-base balance."
+    "question": "A client becomes anxious before a diagnostic procedure and begins breathing rapidly at 32 breaths/min. ABG results show pH 7.49, PaCO2 28 mmHg, HCO3- 24 mEq/L. What is the most appropriate initial nursing intervention?",
+    "options": [
+      "Administer oxygen at 6 L/min via nasal cannula",
+      "Coach the client to breathe slowly and calmly, using a paper bag if ordered",
+      "Prepare for immediate intubation",
+      "Administer IV sodium bicarbonate as ordered"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This ABG reflects respiratory alkalosis from anxiety-induced hyperventilation. The priority is to calm the client and slow the respiratory rate to normalize PaCO2."
   },
   {
     "id": 4,
-    "question": "What is the normal range for PaO2 in arterial blood?",
-    "options": ["35 - 45 mmHg", "60 - 70 mmHg", "80 - 100 mmHg", "22 - 26 mmHg"],
-    "correctAnswer": 2,
-    "explanation": "Normal PaO2 is 80 - 100 mmHg. A PaO2 below 80 mmHg indicates hypoxemia."
+    "question": "A client with type 1 diabetes is admitted in diabetic ketoacidosis (DKA). ABG results show pH 7.22, PaCO2 24 mmHg, HCO3- 12 mEq/L. The nurse also notes deep, rapid respirations. What is this respiratory pattern called, and what does it indicate?",
+    "options": [
+      "Cheyne-Stokes respirations; indicates worsening respiratory failure",
+      "Kussmaul respirations; the body's compensatory attempt to blow off CO2 and correct metabolic acidosis",
+      "Biot's respirations; indicates a brainstem injury",
+      "Orthopnea; indicates heart failure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kussmaul respirations are deep, rapid breaths seen in DKA as the lungs attempt to compensate for metabolic acidosis by eliminating CO2."
   },
   {
     "id": 5,
-    "question": "What is the normal range for SaO2 (oxygen saturation)?",
-    "options": ["80 - 90%", "90 - 95%", "95 - 100%", "70 - 80%"],
-    "correctAnswer": 2,
-    "explanation": "Normal SaO2 is 95 - 100%. Values below 95% suggest inadequate oxygenation."
+    "question": "The priority nursing intervention for the client in Question 4 (DKA with pH 7.22, PaCO2 24, HCO3- 12) is:",
+    "options": [
+      "Administer prescribed IV insulin and isotonic fluids, and monitor potassium levels closely",
+      "Withhold all fluids until the pH normalizes",
+      "Administer a sedative to slow the respiratory rate",
+      "Apply a rebreather mask to increase CO2 retention"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Treating the underlying cause of DKA with insulin and fluid replacement corrects the metabolic acidosis. Potassium must be monitored closely because insulin therapy drives potassium into cells, risking hypokalemia."
   },
   {
     "id": 6,
-    "question": "In the ROME method for ABG interpretation, what does the 'R' and 'O' stand for?",
-    "options": [
-      "Renal Opposite",
-      "Respiratory Opposite",
-      "Respiratory Overload",
-      "Renal Overload"
-    ],
+    "question": "A postoperative client has been vomiting for 2 days and has an NG tube on continuous suction. ABG results show pH 7.50, PaCO2 44 mmHg, HCO3- 32 mEq/L. Which imbalance does the nurse identify?",
+    "options": ["Respiratory alkalosis", "Metabolic alkalosis", "Respiratory acidosis", "Metabolic acidosis"],
     "correctAnswer": 1,
-    "explanation": "ROME stands for Respiratory Opposite, Metabolic Equal. In respiratory disorders, pH and PaCO2 move in opposite directions."
+    "explanation": "Loss of gastric hydrochloric acid through vomiting and NG suction causes metabolic alkalosis: elevated pH and elevated HCO3-, with a normal PaCO2 (uncompensated)."
   },
   {
     "id": 7,
-    "question": "In the ROME method, what does the 'M' and 'E' stand for?",
-    "options": [
-      "Metabolic Equal",
-      "Metabolic Elevated",
-      "Mixed Equal",
-      "Metabolic Emergency"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Metabolic Equal means that in metabolic disorders, the pH and HCO3- move in the SAME direction."
+    "question": "For the client in Question 6, which electrolyte imbalance should the nurse anticipate monitoring for?",
+    "options": ["Hyperkalemia", "Hypokalemia", "Hypercalcemia", "Hypernatremia"],
+    "correctAnswer": 1,
+    "explanation": "Prolonged vomiting and NG suction cause loss of potassium and hydrogen ions, commonly resulting in hypokalemia alongside metabolic alkalosis."
   },
   {
     "id": 8,
-    "question": "A pH of 7.30 with a PaCO2 of 55 mmHg indicates which acid-base imbalance?",
-    "options": ["Metabolic acidosis", "Respiratory acidosis", "Metabolic alkalosis", "Respiratory alkalosis"],
+    "question": "A client with severe diarrhea for the past 3 days has the following ABG results: pH 7.31, PaCO2 32 mmHg, HCO3- 16 mEq/L. How should the nurse classify this ABG?",
+    "options": [
+      "Uncompensated metabolic acidosis",
+      "Partially compensated metabolic acidosis",
+      "Fully compensated metabolic alkalosis",
+      "Uncompensated respiratory alkalosis"
+    ],
     "correctAnswer": 1,
-    "explanation": "A low pH with a high PaCO2 indicates respiratory acidosis — the pH and PaCO2 move in opposite directions, consistent with ROME."
+    "explanation": "The pH remains abnormal (acidotic), HCO3- is low (primary metabolic acidosis from bicarbonate loss in diarrhea), and PaCO2 is also low as the lungs attempt to compensate — this is partially compensated metabolic acidosis."
   },
   {
     "id": 9,
-    "question": "A pH of 7.50 with a PaCO2 of 28 mmHg indicates which acid-base imbalance?",
-    "options": ["Respiratory acidosis", "Metabolic alkalosis", "Respiratory alkalosis", "Metabolic acidosis"],
-    "correctAnswer": 2,
-    "explanation": "A high pH with a low PaCO2 indicates respiratory alkalosis, caused by hyperventilation (blowing off too much CO2)."
+    "question": "A client is found unresponsive with pinpoint pupils and a respiratory rate of 6 breaths/min after receiving opioid pain medication. ABG results show pH 7.25, PaCO2 60 mmHg, HCO3- 25 mEq/L. What is the nurse's priority action?",
+    "options": [
+      "Administer the prescribed opioid reversal agent (naloxone) and support ventilation",
+      "Increase the next dose of opioid analgesic",
+      "Administer a diuretic",
+      "Reassure the client and recheck the ABG in 4 hours"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This client has respiratory acidosis from opioid-induced respiratory depression. The priority is to reverse the opioid and support airway/ventilation to correct the hypoventilation."
   },
   {
     "id": 10,
-    "question": "A pH of 7.25 with an HCO3- of 15 mEq/L indicates which acid-base imbalance?",
-    "options": ["Metabolic acidosis", "Respiratory acidosis", "Metabolic alkalosis", "Respiratory alkalosis"],
+    "question": "A client with chronic kidney disease has the following ABG results: pH 7.28, PaCO2 33 mmHg, HCO3- 15 mEq/L. What is the most likely cause of this acid-base imbalance?",
+    "options": [
+      "The kidneys are unable to excrete hydrogen ions and regenerate bicarbonate adequately",
+      "The client is hyperventilating due to anxiety",
+      "The client has lost excessive gastric acid from vomiting",
+      "The client is retaining excess bicarbonate"
+    ],
     "correctAnswer": 0,
-    "explanation": "A low pH with a low HCO3- indicates metabolic acidosis — pH and HCO3- move in the same direction, consistent with ROME."
+    "explanation": "In renal failure, the kidneys cannot excrete metabolic acids or regenerate bicarbonate effectively, resulting in metabolic acidosis."
   },
   {
     "id": 11,
-    "question": "A pH of 7.48 with an HCO3- of 30 mEq/L indicates which acid-base imbalance?",
-    "options": ["Respiratory alkalosis", "Metabolic acidosis", "Metabolic alkalosis", "Respiratory acidosis"],
-    "correctAnswer": 2,
-    "explanation": "A high pH with a high HCO3- indicates metabolic alkalosis."
+    "question": "A client on a mechanical ventilator has the following ABG results: pH 7.48, PaCO2 29 mmHg, HCO3- 23 mEq/L. The nurse suspects the ventilator settings are causing hyperventilation. What is the most appropriate action?",
+    "options": [
+      "Notify the provider to consider decreasing the respiratory rate or tidal volume",
+      "Increase the respiratory rate on the ventilator",
+      "Administer sodium bicarbonate",
+      "No action is needed; this is a normal finding for ventilated clients"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Excessive minute ventilation from the ventilator is blowing off too much CO2, causing respiratory alkalosis. The provider should be notified to adjust the rate or tidal volume."
   },
   {
     "id": 12,
-    "question": "Which of the following is a common cause of respiratory acidosis?",
-    "options": ["Anxiety and hyperventilation", "COPD with hypoventilation", "Prolonged vomiting", "Diarrhea"],
-    "correctAnswer": 1,
-    "explanation": "COPD causes chronic CO2 retention due to poor gas exchange and hypoventilation, leading to respiratory acidosis."
+    "question": "A client presents to the emergency department after a suspected aspirin (salicylate) overdose. Which acid-base imbalance is most classically associated with early salicylate toxicity?",
+    "options": ["A mixed disorder of respiratory alkalosis and metabolic acidosis", "Simple metabolic alkalosis", "Simple respiratory acidosis", "No acid-base disturbance is expected"],
+    "correctAnswer": 0,
+    "explanation": "Salicylate toxicity classically causes early respiratory alkalosis (direct stimulation of the respiratory center) combined with a high anion gap metabolic acidosis, producing a mixed acid-base disorder."
   },
   {
     "id": 13,
-    "question": "Which of the following is a common cause of respiratory alkalosis?",
-    "options": ["Opioid overdose", "Anxiety-induced hyperventilation", "Diabetic ketoacidosis", "Renal failure"],
+    "question": "A nurse is calculating a client's anion gap and obtains a value of 22 mEq/L. This finding is most consistent with which condition?",
+    "options": ["Diarrhea", "Diabetic ketoacidosis", "Normal saline over-infusion", "Renal tubular acidosis"],
     "correctAnswer": 1,
-    "explanation": "Anxiety and hyperventilation cause excessive elimination of CO2, resulting in respiratory alkalosis."
+    "explanation": "An elevated anion gap (above the normal 8-16 mEq/L range) is characteristic of high anion gap metabolic acidosis, such as DKA, where ketoacids accumulate as unmeasured anions."
   },
   {
     "id": 14,
-    "question": "Which of the following is a common cause of metabolic acidosis?",
-    "options": ["Prolonged vomiting", "Diabetic ketoacidosis (DKA)", "Anxiety attack", "Nasogastric suctioning"],
-    "correctAnswer": 1,
-    "explanation": "DKA produces ketoacids, lowering both pH and HCO3-, resulting in metabolic acidosis."
+    "question": "A client's ABG shows a base excess of +7 mEq/L. How should the nurse interpret this finding?",
+    "options": [
+      "The client has excess buffering base, consistent with metabolic alkalosis",
+      "The client has a base deficit, consistent with metabolic acidosis",
+      "This is a normal finding requiring no further assessment",
+      "The client is hypoxic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A base excess above the normal range (-2 to +2 mEq/L) indicates excess base in the blood, consistent with metabolic alkalosis."
   },
   {
     "id": 15,
-    "question": "Which of the following is a common cause of metabolic alkalosis?",
-    "options": ["Prolonged vomiting", "Renal failure", "Diarrhea", "COPD"],
+    "question": "A client with a spinal cord injury at the C4 level develops shallow, weak respirations. ABG results show pH 7.29, PaCO2 56 mmHg, PaO2 68 mmHg. What is the nurse's priority concern?",
+    "options": [
+      "Impaired ventilation due to respiratory muscle weakness, requiring close airway and respiratory monitoring",
+      "The client is intentionally hyperventilating",
+      "The client has a normal ABG for a spinal cord injury",
+      "The client requires immediate diuresis"
+    ],
     "correctAnswer": 0,
-    "explanation": "Prolonged vomiting causes loss of hydrochloric acid (HCl) from the stomach, raising both pH and HCO3-, resulting in metabolic alkalosis."
+    "explanation": "A high cervical spinal cord injury can impair the muscles of respiration, causing hypoventilation, CO2 retention, and hypoxemia. The nurse must prioritize airway and ventilatory support."
   },
   {
     "id": 16,
-    "question": "Which of the following is a common cause of metabolic acidosis due to bicarbonate loss?",
-    "options": ["Diarrhea", "Vomiting", "Hyperventilation", "Diuretic use"],
-    "correctAnswer": 0,
-    "explanation": "Diarrhea causes loss of bicarbonate-rich intestinal fluid, leading to metabolic acidosis."
+    "question": "A client with Guillain-Barre syndrome has progressive ascending weakness. The nurse notes a decreasing PaO2 and a rising PaCO2 on serial ABGs. What does this trend most likely indicate?",
+    "options": [
+      "Improving respiratory function",
+      "Progressive respiratory muscle failure requiring urgent intervention",
+      "A normal expected finding that requires no action",
+      "The client is hyperventilating"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A falling PaO2 with a rising PaCO2 in a client with a neuromuscular disorder suggests worsening respiratory muscle weakness and impending respiratory failure, requiring urgent evaluation for ventilatory support."
   },
   {
     "id": 17,
-    "question": "What is the body's compensatory response to a primary metabolic acidosis?",
+    "question": "A client in septic shock has the following ABG results: pH 7.20, PaCO2 26 mmHg, HCO3- 10 mEq/L. Which underlying process best explains this metabolic acidosis?",
     "options": [
-      "Kidneys retain bicarbonate",
-      "Lungs increase rate and depth of breathing to blow off CO2",
-      "Lungs decrease respiratory rate",
-      "Kidneys excrete bicarbonate"
+      "Lactic acidosis from tissue hypoperfusion and anaerobic metabolism",
+      "Loss of gastric acid",
+      "Excess bicarbonate administration",
+      "Hyperventilation from anxiety"
     ],
-    "correctAnswer": 1,
-    "explanation": "In metabolic acidosis, the lungs compensate quickly by hyperventilating (Kussmaul respirations) to eliminate CO2 and raise pH."
+    "correctAnswer": 0,
+    "explanation": "In septic shock, poor tissue perfusion leads to anaerobic metabolism and lactic acid accumulation, producing a high anion gap metabolic acidosis."
   },
   {
     "id": 18,
-    "question": "What is the body's compensatory response to a primary respiratory acidosis?",
+    "question": "A client recovering from near-drowning has a PaO2 of 55 mmHg and SaO2 of 87% on room air. How should the nurse interpret these findings?",
     "options": [
-      "Lungs hyperventilate",
-      "Kidneys retain bicarbonate to raise pH",
-      "Kidneys excrete bicarbonate",
-      "Lungs hypoventilate further"
+      "Normal oxygenation status",
+      "Significant hypoxemia requiring prompt intervention",
+      "Mild hyperoxia",
+      "These values reflect the acid-base status, not oxygenation"
     ],
     "correctAnswer": 1,
-    "explanation": "In respiratory acidosis, the kidneys compensate slowly (over hours to days) by retaining bicarbonate to buffer the excess acid."
+    "explanation": "A PaO2 below 80 mmHg and SaO2 below 95% indicate hypoxemia. These values are significantly low and require prompt oxygenation support."
   },
   {
     "id": 19,
-    "question": "What term describes deep, rapid breathing seen in diabetic ketoacidosis as a compensatory mechanism?",
-    "options": ["Cheyne-Stokes respirations", "Kussmaul respirations", "Biot's respirations", "Apneustic breathing"],
-    "correctAnswer": 1,
-    "explanation": "Kussmaul respirations are deep, rapid breaths the body uses to compensate for metabolic acidosis by blowing off CO2."
+    "question": "A nurse is teaching a new graduate nurse about ABG interpretation. Which statement by the new nurse indicates a correct understanding of the ROME method?",
+    "options": [
+      "\"In a respiratory disorder, the pH and PaCO2 move in opposite directions.\"",
+      "\"In a respiratory disorder, the pH and PaCO2 always move in the same direction.\"",
+      "\"ROME only applies to metabolic disorders.\"",
+      "\"The PaO2 determines whether a disorder is respiratory or metabolic.\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "ROME = Respiratory Opposite, Metabolic Equal. In respiratory disorders, pH and PaCO2 move in opposite directions; in metabolic disorders, pH and HCO3- move in the same direction."
   },
   {
     "id": 20,
-    "question": "A patient has a pH of 7.38 (normal), PaCO2 of 50 mmHg (high), and HCO3- of 30 mEq/L (high). How would you classify this ABG?",
+    "question": "A client has the following ABG results: pH 7.36, PaCO2 50 mmHg, HCO3- 28 mEq/L. How should the nurse classify this ABG?",
     "options": [
-      "Uncompensated respiratory acidosis",
       "Fully compensated respiratory acidosis",
+      "Uncompensated respiratory acidosis",
       "Partially compensated metabolic alkalosis",
       "Uncompensated metabolic alkalosis"
     ],
-    "correctAnswer": 1,
-    "explanation": "Since the pH is within normal range but both PaCO2 and HCO3- are abnormal (elevated), the kidneys have fully compensated for a primary respiratory acidosis by retaining bicarbonate."
+    "correctAnswer": 0,
+    "explanation": "The pH is within normal range (though on the low-normal side, indicating the primary process was acidotic), while both PaCO2 and HCO3- are elevated. The kidneys have fully compensated for a primary respiratory acidosis."
   },
   {
     "id": 21,
-    "question": "In ABG interpretation, what does 'uncompensated' mean?",
+    "question": "A client admitted with a severe asthma exacerbation is working hard to breathe, using accessory muscles, with a respiratory rate of 34/min. Initial ABG shows pH 7.47, PaCO2 30 mmHg. Two hours later, the ABG shows pH 7.34, PaCO2 48 mmHg, with no improvement in the client's work of breathing. What does this change most likely indicate?",
     "options": [
-      "The pH is abnormal and only one other value (PaCO2 or HCO3-) is abnormal",
-      "The pH, PaCO2, and HCO3- are all normal",
-      "The pH is normal but PaCO2 and HCO3- are abnormal",
-      "Both PaCO2 and HCO3- are abnormal in the same direction"
+      "The client is improving and tiring less",
+      "Respiratory muscle fatigue and impending respiratory failure",
+      "A laboratory error that should be disregarded",
+      "The client is now over-oxygenated"
     ],
-    "correctAnswer": 0,
-    "explanation": "Uncompensated means the pH is out of normal range and only the primary disturbed value (PaCO2 for respiratory, HCO3- for metabolic) is abnormal, while the other remains normal."
+    "correctAnswer": 1,
+    "explanation": "A shift from respiratory alkalosis (hyperventilation) to a rising PaCO2 and falling pH in a client who is still working hard to breathe suggests respiratory muscle fatigue and impending respiratory failure — a critical warning sign requiring immediate escalation."
   },
   {
     "id": 22,
-    "question": "In ABG interpretation, what does 'partially compensated' mean?",
+    "question": "A client is 2 days postoperative following abdominal surgery and is reluctant to take deep breaths due to incisional pain. ABG results show pH 7.33, PaCO2 50 mmHg, HCO3- 25 mEq/L. What is the priority nursing intervention?",
     "options": [
-      "pH is normal, both PaCO2 and HCO3- are abnormal",
-      "pH remains abnormal, but both PaCO2 and HCO3- are abnormal as the body attempts to correct it",
-      "Only the pH is abnormal",
-      "All three values are normal"
+      "Administer adequate pain control and encourage incentive spirometry and deep breathing",
+      "Restrict the client's fluid intake",
+      "Administer a sedative to reduce respiratory rate further",
+      "Withhold pain medication to increase respiratory drive"
     ],
-    "correctAnswer": 1,
-    "explanation": "In partial compensation, the pH is still outside normal range, but the compensatory system (respiratory or renal) has begun to respond, so both PaCO2 and HCO3- are abnormal."
+    "correctAnswer": 0,
+    "explanation": "Pain-related splinting causes shallow breathing and hypoventilation, leading to respiratory acidosis. Adequate analgesia paired with incentive spirometry improves lung expansion and ventilation."
   },
   {
     "id": 23,
-    "question": "In ABG interpretation, what does 'fully compensated' mean?",
+    "question": "A client with hyperemesis gravidarum has been vomiting frequently for several days. Which ABG pattern does the nurse expect to find?",
     "options": [
-      "The pH returns to within normal range, but PaCO2 and HCO3- remain abnormal",
-      "The pH, PaCO2, and HCO3- are all abnormal",
-      "Only the PaCO2 is abnormal",
-      "The pH is abnormal but trending toward normal"
+      "Elevated pH, elevated HCO3-, normal or elevated PaCO2 (metabolic alkalosis)",
+      "Decreased pH, decreased HCO3- (metabolic acidosis)",
+      "Elevated pH, decreased PaCO2 (respiratory alkalosis)",
+      "Decreased pH, elevated PaCO2 (respiratory acidosis)"
     ],
     "correctAnswer": 0,
-    "explanation": "Full compensation occurs when the compensatory mechanism has normalized the pH, even though PaCO2 and HCO3- remain outside their normal ranges."
+    "explanation": "Frequent vomiting causes loss of hydrochloric acid, resulting in metabolic alkalosis: elevated pH and elevated HCO3-."
   },
   {
     "id": 24,
-    "question": "Which organ system compensates quickly (within minutes) for a metabolic acid-base imbalance?",
-    "options": ["Kidneys", "Lungs", "Liver", "Pancreas"],
-    "correctAnswer": 1,
-    "explanation": "The lungs respond within minutes to metabolic imbalances by adjusting the rate and depth of breathing."
+    "question": "A client with a history of laxative and diuretic misuse is admitted with muscle weakness. ABG results show pH 7.49, HCO3- 31 mEq/L. Which additional finding should the nurse anticipate?",
+    "options": ["Hypokalemia", "Hyperkalemia", "Hyponatremia only, with normal potassium", "Hypercalcemia only, with normal potassium"],
+    "correctAnswer": 0,
+    "explanation": "Chronic diuretic and laxative use commonly causes potassium loss, contributing to hypokalemia alongside metabolic alkalosis."
   },
   {
     "id": 25,
-    "question": "Which organ system compensates slowly (hours to days) for a respiratory acid-base imbalance?",
-    "options": ["Lungs", "Kidneys", "Heart", "Skin"],
+    "question": "A nurse is prioritizing care for four clients. Which client should the nurse assess first based on the ABG results reported?",
+    "options": [
+      "A client with pH 7.38, PaCO2 40 mmHg, HCO3- 24 mEq/L",
+      "A client with pH 7.18, PaCO2 62 mmHg, PaO2 58 mmHg",
+      "A client with pH 7.36, PaCO2 44 mmHg, HCO3- 23 mEq/L",
+      "A client with pH 7.42, PaCO2 38 mmHg, HCO3- 25 mEq/L"
+    ],
     "correctAnswer": 1,
-    "explanation": "The kidneys compensate for respiratory imbalances slowly, over hours to days, by retaining or excreting bicarbonate and hydrogen ions."
+    "explanation": "A pH of 7.18 with a markedly elevated PaCO2 and low PaO2 indicates severe uncompensated respiratory acidosis with hypoxemia — a life-threatening finding that requires immediate assessment, while the other results are within or near normal limits."
   },
   {
     "id": 26,
-    "question": "What is the normal anion gap range typically used in clinical practice?",
-    "options": ["2 - 6 mEq/L", "8 - 16 mEq/L", "20 - 30 mEq/L", "35 - 45 mEq/L"],
+    "question": "A client with myasthenia gravis in myasthenic crisis has increasing difficulty swallowing and shallow respirations. Which ABG finding would most concern the nurse?",
+    "options": [
+      "pH 7.40, PaCO2 40 mmHg",
+      "pH 7.28, PaCO2 55 mmHg",
+      "pH 7.44, PaCO2 36 mmHg",
+      "pH 7.39, PaCO2 41 mmHg"
+    ],
     "correctAnswer": 1,
-    "explanation": "The normal anion gap is generally 8 - 16 mEq/L (some references cite 8-12), and it helps differentiate causes of metabolic acidosis."
+    "explanation": "A falling pH with a rising PaCO2 in a client with a neuromuscular crisis indicates worsening hypoventilation and respiratory acidosis, signaling potential respiratory failure requiring urgent intervention."
   },
   {
     "id": 27,
-    "question": "The mnemonic MUDPILES is used to remember causes of which condition?",
+    "question": "A client is admitted after a suspected ethylene glycol (antifreeze) ingestion. Which acid-base pattern is most consistent with this ingestion?",
     "options": [
       "High anion gap metabolic acidosis",
       "Normal anion gap metabolic acidosis",
+      "Respiratory alkalosis only",
+      "Metabolic alkalosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ethylene glycol is metabolized into acidic byproducts that accumulate as unmeasured anions, producing a high anion gap metabolic acidosis (part of the MUDPILES mnemonic)."
+  },
+  {
+    "id": 28,
+    "question": "A nurse is caring for a client receiving total parenteral nutrition (TPN) who develops a GI fistula with high-volume output. Which acid-base imbalance should the nurse monitor for?",
+    "options": [
+      "Metabolic acidosis from bicarbonate-rich fluid loss",
+      "Metabolic alkalosis from bicarbonate retention",
+      "Respiratory acidosis",
+      "Respiratory alkalosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Intestinal and pancreatic fluids are rich in bicarbonate; high-output fistulas can cause significant bicarbonate loss, resulting in metabolic acidosis."
+  },
+  {
+    "id": 29,
+    "question": "A client in labor is breathing rapidly and forcefully during contractions. ABG results show pH 7.48, PaCO2 29 mmHg. What is the most appropriate nursing action?",
+    "options": [
+      "Coach the client in slower, controlled breathing techniques between contractions",
+      "Administer sodium bicarbonate",
+      "Prepare for emergency intubation",
+      "Restrict oxygen administration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rapid breathing during labor commonly causes mild respiratory alkalosis. Coaching controlled breathing techniques helps normalize the client's respiratory rate and CO2 levels."
+  },
+  {
+    "id": 30,
+    "question": "A client recovering from cardiac arrest and CPR has the following ABG results: pH 7.15, PaCO2 50 mmHg, HCO3- 14 mEq/L. How should the nurse classify this finding?",
+    "options": [
+      "A mixed acid-base disorder involving both respiratory and metabolic acidosis",
+      "A simple, fully compensated respiratory alkalosis",
+      "A normal post-arrest ABG requiring no intervention",
+      "Uncomplicated metabolic alkalosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both PaCO2 (respiratory) and HCO3- (metabolic) are abnormal in the acidotic direction, along with a severely low pH — this reflects a mixed respiratory and metabolic acidosis, common after cardiac arrest due to inadequate ventilation and lactic acid buildup from poor perfusion."
+  },
+  {
+    "id": 31,
+    "question": "A client with a large pulmonary embolism suddenly becomes tachypneic and anxious. Early ABG results show pH 7.47, PaCO2 30 mmHg, PaO2 62 mmHg. What does this pattern most likely reflect?",
+    "options": [
+      "Hypoxemia triggering compensatory hyperventilation and resulting respiratory alkalosis",
+      "A primary metabolic alkalosis unrelated to the embolism",
+      "Normal oxygenation with no acid-base disturbance",
+      "Respiratory acidosis from hypoventilation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In early pulmonary embolism, hypoxemia stimulates the respiratory drive, causing hyperventilation and respiratory alkalosis, while PaO2 remains low due to impaired gas exchange."
+  },
+  {
+    "id": 32,
+    "question": "A client with pneumonia has a PaO2 of 58 mmHg on room air. Which nursing action is the priority?",
+    "options": [
+      "Administer supplemental oxygen as prescribed and reassess",
+      "Document the finding and reassess in the next shift",
+      "Withhold oxygen to avoid suppressing respiratory drive in all clients",
+      "Immediately sedate the client to reduce oxygen demand"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A PaO2 of 58 mmHg indicates significant hypoxemia. The priority is to administer supplemental oxygen as prescribed and reassess the client's oxygenation status."
+  },
+  {
+    "id": 33,
+    "question": "A nurse evaluates a client's ABG after initiating treatment for metabolic acidosis. Initial pH was 7.22; the repeat pH is 7.34, with HCO3- rising from 12 to 18 mEq/L. How should the nurse interpret this trend?",
+    "options": [
+      "The treatment is effective and the client's acid-base status is improving",
+      "The client's condition is worsening and requires escalation of care",
+      "This trend indicates a new respiratory alkalosis has developed",
+      "This is an unrelated, incidental finding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A rising pH moving toward the normal range along with a rising HCO3- indicates the metabolic acidosis is improving in response to treatment."
+  },
+  {
+    "id": 34,
+    "question": "A client with bulimia nervosa who has been self-inducing vomiting for several weeks is admitted with muscle weakness and cardiac dysrhythmias. Which ABG and electrolyte pattern should the nurse anticipate?",
+    "options": [
+      "Metabolic alkalosis with hypokalemia",
+      "Metabolic acidosis with hyperkalemia",
+      "Respiratory acidosis with hypernatremia",
+      "Respiratory alkalosis with hypercalcemia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chronic self-induced vomiting causes loss of gastric acid and potassium, resulting in metabolic alkalosis and hypokalemia, which can contribute to cardiac dysrhythmias."
+  },
+  {
+    "id": 35,
+    "question": "A client's ABG shows pH 7.41, PaCO2 33 mmHg, HCO3- 20 mEq/L. How should the nurse interpret this result?",
+    "options": [
+      "Fully compensated metabolic acidosis",
+      "Uncompensated respiratory alkalosis",
+      "Fully compensated respiratory acidosis",
+      "Uncompensated metabolic acidosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The pH is within normal range (on the acidotic side of midline, 7.40), while HCO3- is low (primary metabolic acidosis) and PaCO2 is also low, showing the lungs have compensated by blowing off CO2 — fully compensated metabolic acidosis."
+  },
+  {
+    "id": 36,
+    "question": "The healthcare provider prescribes an ABG to be drawn from a client's radial artery. Which nursing action is essential prior to the procedure?",
+    "options": [
+      "Perform an Allen's test to assess collateral circulation",
+      "Withhold all analgesics for 24 hours before the draw",
+      "Ensure the client has been NPO for 8 hours",
+      "Position the client supine with the arm below the level of the heart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Allen's test assesses the patency of the ulnar artery to ensure adequate collateral circulation to the hand before performing a radial arterial puncture, reducing the risk of ischemic complications."
+  },
+  {
+    "id": 37,
+    "question": "After an arterial blood gas is drawn from the radial artery, which nursing action is most important?",
+    "options": [
+      "Apply firm, direct pressure to the puncture site for at least 5 minutes",
+      "Apply a warm compress to the site immediately",
+      "Encourage the client to move the wrist actively right away",
+      "Elevate the arm above the heart for 30 minutes without applying pressure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Because arteries are under higher pressure than veins, firm direct pressure for at least 5 minutes (longer if the client is on anticoagulants) is essential to prevent hematoma formation and bleeding."
+  },
+  {
+    "id": 38,
+    "question": "A client's ABG sample sits at room temperature on the counter for 45 minutes before being analyzed. How might this delay affect the results?",
+    "options": [
+      "It may falsely lower the PaO2 and pH due to continued cellular metabolism",
+      "It will have no effect on the results",
+      "It will falsely elevate the PaO2",
+      "It will only affect the HCO3- value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Blood cells continue to metabolize oxygen and produce CO2 after the sample is drawn. A delay in analysis without proper icing can falsely lower PaO2 and pH and raise PaCO2, so samples should be analyzed promptly or placed on ice."
+  },
+  {
+    "id": 39,
+    "question": "A client with fever and sepsis has an increased metabolic rate. Which ABG finding is most consistent with early compensated sepsis before decompensation occurs?",
+    "options": [
+      "pH 7.46, PaCO2 30 mmHg, HCO3- 22 mEq/L (respiratory alkalosis)",
+      "pH 7.20, PaCO2 55 mmHg, HCO3- 15 mEq/L",
+      "pH 7.50, PaCO2 46 mmHg, HCO3- 34 mEq/L",
+      "pH 7.10, PaCO2 20 mmHg, HCO3- 8 mEq/L"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Early sepsis often presents with hyperventilation-driven respiratory alkalosis as the body attempts to compensate for increased metabolic demand and early tissue hypoperfusion, before progressing to metabolic (lactic) acidosis if untreated."
+  },
+  {
+    "id": 40,
+    "question": "A client's ABG reveals a PaO2 of 92 mmHg and SaO2 of 97% while receiving 2 L/min of oxygen via nasal cannula. How should the nurse interpret this finding?",
+    "options": [
+      "The client's oxygenation is adequate on the current oxygen therapy",
+      "The client is severely hypoxemic and needs increased oxygen immediately",
+      "The client should have oxygen therapy discontinued to prevent oxygen toxicity",
+      "This finding indicates a metabolic acid-base disturbance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A PaO2 of 92 mmHg and SaO2 of 97% both fall within normal ranges, indicating adequate oxygenation on the current therapy."
+  },
+  {
+    "id": 41,
+    "question": "A client with a closed head injury is intentionally hyperventilated per provider order to achieve a target PaCO2 of 30-35 mmHg. What is the rationale for this therapy?",
+    "options": [
+      "Lowering PaCO2 causes cerebral vasoconstriction, which can reduce intracranial pressure",
+      "Lowering PaCO2 increases cerebral blood flow and intracranial pressure",
+      "This therapy has no effect on cerebral blood vessels",
+      "This is done to correct a metabolic alkalosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Controlled hyperventilation lowers PaCO2, which causes cerebral vasoconstriction and can temporarily reduce intracranial pressure in select head injury cases, though it is used cautiously and only short-term."
+  },
+  {
+    "id": 42,
+    "question": "A client with alcohol use disorder and poor nutritional intake is admitted with confusion. ABG results show pH 7.25, PaCO2 22 mmHg, HCO3- 9 mEq/L, and an elevated anion gap. Which condition is most consistent with these findings?",
+    "options": [
+      "Alcoholic ketoacidosis or lactic acidosis with respiratory compensation",
+      "Simple respiratory alkalosis",
+      "Uncomplicated metabolic alkalosis",
+      "A normal ABG for this client's history"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chronic alcohol use with poor intake can lead to ketoacidosis or lactic acidosis, producing a high anion gap metabolic acidosis with respiratory compensation (low PaCO2)."
+  },
+  {
+    "id": 43,
+    "question": "A nurse notes that a client's ABG shows pH 7.33, PaCO2 47 mmHg, HCO3- 24 mEq/L, and the client reports increasing shortness of breath and audible wheezing. What should the nurse do first?",
+    "options": [
+      "Assess the client's respiratory status and notify the provider of the findings",
+      "Wait until the next scheduled ABG to reassess",
+      "Document the findings with no further action needed",
+      "Encourage the client to lie flat to rest"
+    ],
+    "correctAnswer": 0,
+    "explanation": "New respiratory acidosis accompanied by worsening symptoms (dyspnea, wheezing) requires immediate assessment and provider notification, as it may indicate a deteriorating respiratory status."
+  },
+  {
+    "id": 44,
+    "question": "A client's repeat ABG after bronchodilator therapy shows improvement from pH 7.29/PaCO2 58 to pH 7.37/PaCO2 46. How should the nurse interpret this change?",
+    "options": [
+      "The treatment is effective; the client's respiratory acidosis is improving",
+      "The client's condition is worsening",
+      "The client has developed a new metabolic alkalosis",
+      "The values indicate no meaningful change"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A pH trending toward normal along with a decreasing PaCO2 indicates the respiratory acidosis is resolving in response to treatment."
+  },
+  {
+    "id": 45,
+    "question": "A client with acute pancreatitis develops persistent vomiting and is placed on NG suction. Three days later, the client also becomes tachypneic with a respiratory rate of 30/min due to abdominal pain and distension. Which ABG pattern would be most consistent with this evolving clinical picture?",
+    "options": [
+      "A mixed disorder with metabolic alkalosis (from vomiting/NG loss) and respiratory alkalosis (from pain-induced hyperventilation)",
+      "Simple respiratory acidosis only",
+      "Simple metabolic acidosis only",
+      "A normal ABG with no expected disturbance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This client has two separate processes occurring simultaneously — bicarbonate/acid loss from vomiting and NG suction (metabolic alkalosis) and pain-driven hyperventilation (respiratory alkalosis) — which can combine into a mixed acid-base disorder."
+  },
+  {
+    "id": 46,
+    "question": "A client is admitted with a suspected methanol ingestion. Which finding would the nurse expect on the ABG?",
+    "options": [
+      "A high anion gap metabolic acidosis",
+      "A normal anion gap metabolic acidosis",
+      "Simple respiratory acidosis",
+      "Metabolic alkalosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Methanol is metabolized into toxic acidic byproducts (including formic acid), producing a high anion gap metabolic acidosis, as reflected in the MUDPILES mnemonic."
+  },
+  {
+    "id": 47,
+    "question": "A client receiving IV normal saline in large volumes over several days develops a mild acid-base disturbance. Which pattern is most consistent with saline-induced (dilutional) acidosis?",
+    "options": [
+      "Normal anion gap (hyperchloremic) metabolic acidosis",
+      "High anion gap metabolic acidosis",
       "Respiratory alkalosis",
       "Metabolic alkalosis"
     ],
     "correctAnswer": 0,
-    "explanation": "MUDPILES (Methanol, Uremia, DKA, Paraldehyde, Iron/Isoniazid, Lactic acidosis, Ethylene glycol, Salicylates) helps recall causes of high anion gap metabolic acidosis."
-  },
-  {
-    "id": 28,
-    "question": "Which condition is a classic example of a HIGH anion gap metabolic acidosis?",
-    "options": ["Diarrhea", "Diabetic ketoacidosis", "Renal tubular acidosis", "Excessive IV normal saline"],
-    "correctAnswer": 1,
-    "explanation": "DKA produces excess ketoacids (unmeasured anions), which raises the anion gap."
-  },
-  {
-    "id": 29,
-    "question": "Which condition is a classic example of a NORMAL anion gap metabolic acidosis?",
-    "options": ["Lactic acidosis", "Diarrhea", "Salicylate toxicity", "Diabetic ketoacidosis"],
-    "correctAnswer": 1,
-    "explanation": "Diarrhea causes a normal anion gap (hyperchloremic) metabolic acidosis due to direct bicarbonate loss without accumulation of unmeasured anions."
-  },
-  {
-    "id": 30,
-    "question": "What is the normal range for base excess/deficit?",
-    "options": ["-2 to +2 mEq/L", "-10 to -5 mEq/L", "+5 to +10 mEq/L", "0 to +20 mEq/L"],
-    "correctAnswer": 0,
-    "explanation": "Normal base excess is -2 to +2 mEq/L. Values outside this range indicate a metabolic component to the acid-base disturbance."
-  },
-  {
-    "id": 31,
-    "question": "A base excess of +6 mEq/L suggests which of the following?",
-    "options": ["Metabolic acidosis", "Metabolic alkalosis", "Respiratory acidosis", "Normal acid-base status"],
-    "correctAnswer": 1,
-    "explanation": "A positive base excess above the normal range indicates too much base (bicarbonate), consistent with metabolic alkalosis."
-  },
-  {
-    "id": 32,
-    "question": "A base deficit (negative base excess) of -8 mEq/L suggests which of the following?",
-    "options": ["Metabolic alkalosis", "Respiratory alkalosis", "Metabolic acidosis", "Normal acid-base status"],
-    "correctAnswer": 2,
-    "explanation": "A negative base excess (base deficit) reflects a lack of buffering base, consistent with metabolic acidosis."
-  },
-  {
-    "id": 33,
-    "question": "A patient with COPD typically has which chronic, compensated ABG pattern?",
-    "options": [
-      "Low pH-normal, high PaCO2, high HCO3-",
-      "Normal pH, high PaCO2, high HCO3- (compensated respiratory acidosis)",
-      "High pH, low PaCO2, low HCO3-",
-      "Normal pH, low PaCO2, low HCO3-"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Chronic COPD patients often have a compensated respiratory acidosis: normal pH with elevated PaCO2 and elevated HCO3- as the kidneys have compensated over time."
-  },
-  {
-    "id": 34,
-    "question": "An opioid overdose most likely causes which ABG pattern?",
-    "options": ["Respiratory alkalosis", "Metabolic alkalosis", "Respiratory acidosis", "Metabolic acidosis"],
-    "correctAnswer": 2,
-    "explanation": "Opioids depress the respiratory drive, causing hypoventilation and CO2 retention, which results in respiratory acidosis."
-  },
-  {
-    "id": 35,
-    "question": "A patient hyperventilating on a mechanical ventilator (rate/volume set too high) is at risk for which imbalance?",
-    "options": ["Respiratory acidosis", "Metabolic acidosis", "Respiratory alkalosis", "Metabolic alkalosis"],
-    "correctAnswer": 2,
-    "explanation": "Excessive minute ventilation blows off too much CO2, resulting in respiratory alkalosis."
-  },
-  {
-    "id": 36,
-    "question": "Which nursing intervention is most appropriate for a patient in respiratory acidosis due to COPD exacerbation?",
-    "options": [
-      "Encourage rebreathing into a paper bag",
-      "Administer bronchodilators and encourage coughing/deep breathing to improve ventilation",
-      "Restrict fluids",
-      "Administer antacids"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Improving ventilation through bronchodilators, positioning, and airway clearance techniques helps reduce CO2 retention in respiratory acidosis."
-  },
-  {
-    "id": 37,
-    "question": "Which nursing intervention is most appropriate for a patient experiencing respiratory alkalosis from anxiety-induced hyperventilation?",
-    "options": [
-      "Administer supplemental oxygen at high flow",
-      "Encourage slow, controlled breathing and calm reassurance",
-      "Administer sodium bicarbonate",
-      "Restrict oral fluids"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Calming the patient and coaching slow, controlled breathing helps normalize CO2 levels in anxiety-related respiratory alkalosis."
-  },
-  {
-    "id": 38,
-    "question": "Which nursing intervention is a priority for a patient in diabetic ketoacidosis (metabolic acidosis)?",
-    "options": [
-      "Administer IV insulin and fluids as ordered",
-      "Encourage the patient to hypoventilate",
-      "Withhold all fluids",
-      "Administer a diuretic"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Treating the underlying cause of DKA with insulin and fluid replacement corrects the metabolic acidosis."
-  },
-  {
-    "id": 39,
-    "question": "Which nursing intervention is appropriate for a patient with metabolic alkalosis due to prolonged vomiting?",
-    "options": [
-      "Encourage hyperventilation",
-      "Replace fluid and electrolyte losses (e.g., potassium, chloride) and treat the underlying cause",
-      "Administer sodium bicarbonate",
-      "Restrict potassium intake"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correcting fluid and electrolyte losses, especially potassium and chloride, along with treating the cause of vomiting, helps resolve metabolic alkalosis."
-  },
-  {
-    "id": 40,
-    "question": "A PaO2 of 65 mmHg is best described as which of the following?",
-    "options": ["Normal oxygenation", "Mild hyperoxia", "Hypoxemia", "Hyperventilation"],
-    "correctAnswer": 2,
-    "explanation": "A PaO2 below 80 mmHg indicates hypoxemia, meaning inadequate oxygen levels in arterial blood."
-  },
-  {
-    "id": 41,
-    "question": "Which value in an ABG report reflects a patient's OXYGENATION status rather than acid-base balance?",
-    "options": ["pH", "PaCO2", "HCO3-", "PaO2"],
-    "correctAnswer": 3,
-    "explanation": "PaO2 (and SaO2) reflect oxygenation status, while pH, PaCO2, and HCO3- reflect acid-base balance."
-  },
-  {
-    "id": 42,
-    "question": "What is the correct FIRST step in a systematic approach to ABG interpretation?",
-    "options": [
-      "Look at the PaO2",
-      "Look at the pH to determine acidosis or alkalosis",
-      "Calculate the anion gap",
-      "Determine the compensation status"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The first step is always to evaluate the pH to determine whether the overall picture is acidotic or alkalotic."
-  },
-  {
-    "id": 43,
-    "question": "After evaluating the pH, what is the NEXT step in systematic ABG interpretation?",
-    "options": [
-      "Evaluate PaCO2 to determine the respiratory component",
-      "Evaluate PaO2",
-      "Administer treatment",
-      "Assess the patient's vital signs only"
-    ],
-    "correctAnswer": 0,
-    "explanation": "After the pH, the nurse evaluates PaCO2 to see if it correlates with the pH change (indicating a respiratory cause)."
-  },
-  {
-    "id": 44,
-    "question": "What is the final step in systematic ABG interpretation after evaluating pH, PaCO2, and HCO3-?",
-    "options": [
-      "Determine the degree of compensation (uncompensated, partial, or full)",
-      "Ignore the HCO3- value",
-      "Recheck only the PaO2",
-      "Discard the ABG result"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The final step is to determine the compensation status by comparing how far the pH has returned toward normal relative to PaCO2 and HCO3-."
-  },
-  {
-    "id": 45,
-    "question": "A patient with pH 7.32, PaCO2 48 mmHg, and HCO3- 20 mEq/L has which acid-base disturbance?",
-    "options": [
-      "Partially compensated respiratory acidosis",
-      "Fully compensated metabolic alkalosis",
-      "Uncompensated respiratory alkalosis",
-      "Fully compensated respiratory acidosis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The pH is low (acidosis), PaCO2 is high (respiratory acidosis), and HCO3- is also low/abnormal, showing the kidneys are attempting to compensate but the pH remains abnormal — partially compensated respiratory acidosis."
-  },
-  {
-    "id": 46,
-    "question": "A patient with pH 7.34, PaCO2 30 mmHg, and HCO3- 16 mEq/L has which acid-base disturbance?",
-    "options": [
-      "Partially compensated metabolic acidosis",
-      "Uncompensated metabolic alkalosis",
-      "Fully compensated respiratory alkalosis",
-      "Partially compensated respiratory alkalosis"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The pH is low-normal (acidotic side), HCO3- is low (metabolic acidosis), and PaCO2 is also low, showing the lungs are compensating by blowing off CO2 — partially compensated metabolic acidosis."
-  },
-  {
-    "id": 47,
-    "question": "What term describes a situation where TWO different primary acid-base disorders occur at the same time?",
-    "options": ["Compensated disorder", "Mixed acid-base disorder", "Simple disorder", "Buffered disorder"],
-    "correctAnswer": 1,
-    "explanation": "A mixed acid-base disorder occurs when two or more primary disturbances happen simultaneously, and the values may not fit a typical single-system compensation pattern."
+    "explanation": "Large-volume normal saline infusion can dilute serum bicarbonate and increase chloride, producing a normal anion gap (hyperchloremic) metabolic acidosis."
   },
   {
     "id": 48,
-    "question": "A patient with severe diarrhea AND hyperventilation from pain could develop which type of ABG picture?",
+    "question": "A nurse is documenting an ABG result of pH 7.44, PaCO2 42 mmHg, HCO3- 25 mEq/L, PaO2 90 mmHg. How should this result be documented?",
     "options": [
-      "A mixed disorder with both metabolic acidosis and respiratory alkalosis",
-      "Simple respiratory acidosis only",
-      "Normal ABG values",
-      "Simple metabolic alkalosis only"
+      "Normal ABG within expected limits",
+      "Uncompensated respiratory alkalosis",
+      "Partially compensated metabolic alkalosis",
+      "Uncompensated metabolic acidosis"
     ],
     "correctAnswer": 0,
-    "explanation": "Diarrhea causes metabolic acidosis while pain-induced hyperventilation causes respiratory alkalosis; together they can create a mixed disorder, sometimes with a near-normal pH despite significantly abnormal PaCO2 and HCO3-."
+    "explanation": "All four values (pH, PaCO2, HCO3-, and PaO2) fall within normal reference ranges, indicating a normal ABG."
   },
   {
     "id": 49,
-    "question": "Which electrolyte imbalance is commonly associated with prolonged vomiting and metabolic alkalosis?",
-    "options": ["Hyperkalemia", "Hypokalemia", "Hypercalcemia", "Hypernatremia"],
-    "correctAnswer": 1,
-    "explanation": "Prolonged vomiting leads to loss of potassium and hydrogen ions, contributing to hypokalemia alongside metabolic alkalosis."
+    "question": "A client with a suspected pulmonary embolism has a room-air ABG of pH 7.46, PaCO2 31 mmHg, PaO2 58 mmHg. The provider orders 4 L/min oxygen via nasal cannula. What is the expected goal of this intervention?",
+    "options": [
+      "Improve the PaO2 and SaO2 to correct hypoxemia",
+      "Correct the respiratory alkalosis directly",
+      "Lower the client's PaCO2 further",
+      "Treat an underlying metabolic acidosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Supplemental oxygen is given to correct the hypoxemia (low PaO2) caused by impaired gas exchange from the pulmonary embolism; the respiratory alkalosis will improve as the underlying hypoxemia and anxiety resolve."
   },
   {
     "id": 50,
-    "question": "A nurse obtains an ABG: pH 7.48, PaCO2 32 mmHg, HCO3- 24 mEq/L. How should this be classified?",
+    "question": "A nurse educator asks a group of new nurses to summarize the correct sequence for systematic ABG interpretation. Which response demonstrates the correct approach?",
     "options": [
-      "Uncompensated respiratory alkalosis",
-      "Fully compensated metabolic acidosis",
-      "Partially compensated respiratory acidosis",
-      "Uncompensated metabolic alkalosis"
+      "\"First look at the pH to determine acidosis or alkalosis, then evaluate PaCO2 for a respiratory cause, then evaluate HCO3- for a metabolic cause, and finally determine the degree of compensation.\"",
+      "\"First look at the PaO2, then determine the client's oxygen therapy needs, and stop there.\"",
+      "\"Only the pH needs to be assessed; the other values are not clinically significant.\"",
+      "\"Start by calculating the anion gap before looking at the pH.\""
     ],
     "correctAnswer": 0,
-    "explanation": "The pH is high (alkalosis), PaCO2 is low (respiratory cause), and HCO3- remains within normal range, meaning the kidneys have not yet compensated — this is uncompensated respiratory alkalosis."
+    "explanation": "The standard systematic approach is: (1) evaluate pH for acidosis/alkalosis, (2) evaluate PaCO2 for a respiratory component, (3) evaluate HCO3- for a metabolic component, and (4) determine whether the disturbance is uncompensated, partially compensated, or fully compensated."
   }
 ]

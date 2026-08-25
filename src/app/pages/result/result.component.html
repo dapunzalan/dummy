@@ -1,0 +1,58 @@
+<div class="result-wrapper">
+  <div class="result-card">
+    <div class="score-circle" [ngClass]="scoreColorClass">
+      <span class="score-percent">{{ score.percentage }}%</span>
+      <span class="score-fraction">{{ score.correct }}/{{ score.total }}</span>
+    </div>
+
+    <h1>{{ remarkTitle }}</h1>
+    <p class="remark-text">{{ remarkText }}</p>
+
+    <div class="action-row">
+      <button type="button" class="btn secondary" (click)="toggleReview()">
+        {{ showReview ? 'Hide' : 'Review' }} Answers
+      </button>
+      <button type="button" class="btn primary" (click)="retakeExam()">
+        Retake Exam
+      </button>
+    </div>
+  </div>
+
+  <div class="review-section" *ngIf="showReview">
+    <h2>Answer Review</h2>
+
+    <div
+      class="review-item"
+      *ngFor="let q of quizService.examQuestions; let i = index"
+      [class.correct]="quizService.userAnswers[i].isCorrect"
+      [class.incorrect]="!quizService.userAnswers[i].isCorrect">
+
+      <div class="review-header">
+        <span class="review-index">Q{{ i + 1 }}</span>
+        <span class="review-tag" *ngIf="quizService.userAnswers[i].isCorrect">Correct</span>
+        <span class="review-tag wrong" *ngIf="!quizService.userAnswers[i].isCorrect">Incorrect</span>
+      </div>
+
+      <p class="review-question">{{ q.question }}</p>
+
+      <div class="review-options">
+        <div
+          class="review-option"
+          *ngFor="let opt of q.options; let oi = index"
+          [class.is-correct]="oi === q.correctAnswer"
+          [class.is-selected-wrong]="oi === quizService.userAnswers[i].selectedIndex && oi !== q.correctAnswer">
+          <span class="opt-letter">{{ optionLetter(oi) }}</span>
+          <span class="opt-text">{{ opt }}</span>
+          <span class="opt-flag" *ngIf="oi === q.correctAnswer">&#10003; Correct answer</span>
+          <span class="opt-flag wrong" *ngIf="oi === quizService.userAnswers[i].selectedIndex && oi !== q.correctAnswer">
+            &#10007; Your answer
+          </span>
+        </div>
+      </div>
+
+      <p class="review-explanation" *ngIf="q.explanation">
+        <strong>Explanation:</strong> {{ q.explanation }}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,69 @@
+<div class="exam-wrapper" *ngIf="currentQuestion">
+  <div class="exam-header">
+    <div class="header-top">
+      <h2>ABG Analysis Reviewer</h2>
+      <span class="counter">Question {{ currentIndex + 1 }} of {{ totalQuestions }}</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" [style.width.%]="progressPercent"></div>
+    </div>
+  </div>
+
+  <div class="question-card">
+    <p class="question-text">{{ currentQuestion.question }}</p>
+
+    <div class="options">
+      <button
+        type="button"
+        class="option-btn"
+        *ngFor="let option of currentQuestion.options; let i = index"
+        [class.selected]="isCurrentOptionSelected(i)"
+        (click)="selectAnswer(i)">
+        <span class="option-letter">{{ ['A','B','C','D'][i] }}</span>
+        <span class="option-text">{{ option }}</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-row">
+    <button type="button" class="nav-btn secondary" (click)="prev()" [disabled]="currentIndex === 0">
+      &larr; Previous
+    </button>
+
+    <button
+      type="button"
+      class="nav-btn primary"
+      *ngIf="currentIndex < totalQuestions - 1"
+      (click)="next()">
+      Next &rarr;
+    </button>
+
+    <button
+      type="button"
+      class="nav-btn finish"
+      *ngIf="currentIndex === totalQuestions - 1"
+      [disabled]="!allAnswered"
+      (click)="finishExam()">
+      Finish Exam
+    </button>
+  </div>
+
+  <p class="answered-note" *ngIf="currentIndex === totalQuestions - 1 && !allAnswered">
+    Answer all {{ totalQuestions }} questions to finish ({{ answeredCount }}/{{ totalQuestions }} answered).
+  </p>
+
+  <div class="pagination-section">
+    <p class="pagination-label">Jump to a question</p>
+    <div class="pagination-bar">
+      <button
+        type="button"
+        class="page-btn"
+        *ngFor="let i of pageNumbers"
+        [class.current]="i === currentIndex"
+        [class.answered]="isAnswered(i) && i !== currentIndex"
+        (click)="goToQuestion(i)">
+        {{ i + 1 }}
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+<div class="welcome-wrapper">
+  <div class="welcome-card">
+    <div class="badge">ABG Analysis</div>
+    <h1>Tattot's Reviewer</h1>
+    <p class="subtitle">
+      Sharpen your arterial blood gas interpretation skills. Practice recognizing
+      respiratory and metabolic acid-base imbalances, compensation, and clinical
+      correlations &mdash; built for nurses and nursing students.
+    </p>
+
+    <div class="info-row">
+      <div class="info-pill">
+        <span class="info-number">50</span>
+        <span class="info-label">Questions in bank</span>
+      </div>
+      <div class="info-pill">
+        <span class="info-number">MCQ</span>
+        <span class="info-label">Multiple choice</span>
+      </div>
+      <div class="info-pill">
+        <span class="info-number">&#8635;</span>
+        <span class="info-label">Randomized each attempt</span>
+      </div>
+    </div>
+
+    <div class="picker-section">
+      <p class="picker-label">How many questions would you like to take?</p>
+      <div class="picker-options">
+        <button
+          type="button"
+          *ngFor="let size of pageSizes"
+          class="picker-btn"
+          [class.active]="selectedCount === size"
+          (click)="selectCount(size)">
+          {{ size }}
+        </button>
+      </div>
+    </div>
+
+    <button class="start-btn" (click)="startExam()" [disabled]="loading">
+      <span *ngIf="!loading">Start Exam &rarr;</span>
+      <span *ngIf="loading">Loading questions&hellip;</span>
+    </button>
+
+    <p class="error-msg" *ngIf="error">{{ error }}</p>
+  </div>
+</div>

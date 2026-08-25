@@ -24,17 +24,17 @@ export class ResultComponent implements OnInit {
   }
 
   get remarkTitle(): string {
-    if (this.score.percentage >= 90) return 'Excellent!';
-    if (this.score.percentage >= 75) return 'Good job!';
-    if (this.score.percentage >= 50) return 'Fair attempt';
-    return 'Keep studying';
+    if (this.score.percentage >= 90) return 'Lakas mo Tattot!';
+    if (this.score.percentage >= 75) return 'Ang Galing mo Bochog!';
+    if (this.score.percentage >= 50) return 'Sayang!';
+    return 'Baby magreview ka pa!';
   }
 
   get remarkText(): string {
-    if (this.score.percentage >= 90) return 'You have strong mastery of ABG analysis concepts.';
-    if (this.score.percentage >= 75) return 'You have a solid understanding, with a little more room to sharpen the details.';
-    if (this.score.percentage >= 50) return 'You are getting there. Review the topics you missed below.';
-    return 'Review the fundamentals of ABG interpretation and try again.';
+    if (this.score.percentage >= 90) return 'Wow, sexy, maganda, tapos matalino pa!';
+    if (this.score.percentage >= 75) return 'Ang galing, pwede po pa kiss?';
+    if (this.score.percentage >= 50) return 'Baby ready ka na po ba mag top? :D';
+    return 'i-ready mo na ang twerk mo :>';
   }
 
   get scoreColorClass(): string {
